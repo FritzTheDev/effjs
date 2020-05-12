@@ -8,5 +8,5 @@ const components = {
 
 
 export default function MyApp({ Component, pageProps }) {
-  return <MdxProvider components={components}><Component {...pageProps} /></MdxProvider>
+  return <MDXProvider components={components}><Component {...pageProps} /></MDXProvider>
 }
