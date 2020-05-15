@@ -12,7 +12,7 @@ export default () => (
           imgSrc="/next-with-tailwind-1.png"
           title="Configuring Next.js with Tailwind CSS"
           subtitle="Get Started With Utility Classes in Next.js"
-          date="May 12, 2020"
+          date="May 15, 2020"
         />
       </section>
     </main>
