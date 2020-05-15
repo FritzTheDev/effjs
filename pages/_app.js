@@ -7,17 +7,17 @@ const components = {
   wrapper: (props) => (
     <>
       <Header />
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto p-4 bg-white">
         <main {...props} />
       </div>
     </>
   ),
-  p: (props) => <p className="my-1" {...props} />,
-  h1: (props) => <h1 className="text-4xl mx-3 my-4 text-center" {...props} />,
-  h2: (props) => <h2 className="text-3xl mx-3 my-2 text-center" {...props} />,
-  h3: (props) => <h2 className="text-2xl mx-3 my-2 text-center" {...props} />,
-  h4: (props) => <h2 className="text-xl mx-3 text-center" {...props} />,
-  h5: (props) => <h2 className="mx-3 text-center" {...props} />,
+  p: (props) => <p className="my-1 mx-3" {...props} />,
+  h1: (props) => <h1 className="text-2xl text-center md:text-4xl mx-3" {...props} />,
+  h2: (props) => <h2 className="text-3xl mx-3 my-2" {...props} />,
+  h3: (props) => <h2 className="text-2xl mx-3 my-2" {...props} />,
+  h4: (props) => <h2 className="text-xl mx-3 text-center mb-2 text-gray-500" {...props} />,
+  h5: (props) => <h2 className="mx-3" {...props} />,
   code: (props) => <CodeBlock {...props} />,
   pre: (props) => <div {...props} />,
 };
