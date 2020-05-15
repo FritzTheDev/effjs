@@ -12,7 +12,9 @@ const components = {
       </div>
     </>
   ),
-  h1: (props) => <h1 className="text-4xl text-center" {...props} />,
+  p: (props) => <p className="py-1 text-lg mx-3" {...props} />,
+  h1: (props) => <h1 className="text-4xl mx-3 text-center" {...props} />,
+  h2: (props) => <h2 className="text-3xl mx-3 text-center" {...props} />,
   code: (props) => <CodeBlock {...props} />,
   pre: (props) => <div {...props} />,
 };
