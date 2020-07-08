@@ -1,14 +1,17 @@
-import "../styles/index.css";
 import { MDXProvider } from "@mdx-js/react";
+import Head from "next/head";
 import { Header } from "../lib/Header";
 import { CodeBlock } from "../lib/CodeBlock";
+import "../styles/index.css";
 
 const components = {
   wrapper: (props) => {
-    console.log(props);
     return (
     <>
       <Header />
+      <Head>
+        <title>EffJS Blog</title>
+      </Head>
       <div className="container mx-auto p-4 bg-white">
         <main {...props} />
       </div>
