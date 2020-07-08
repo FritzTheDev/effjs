@@ -1,7 +1,7 @@
 const withMdxEnhanced = require('next-mdx-enhanced')
 module.exports = withMdxEnhanced({
-  layoutPath: 'layouts',
-  defaultLayout: true,
+  layoutPath: 'blog',
+  defaultLayout: false,
   fileExtensions: ['mdx'],
   remarkPlugins: [],
   rehypePlugins: [],
