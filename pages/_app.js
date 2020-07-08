@@ -21,7 +21,7 @@ const components = {
   h1: (props) => <h1 className="text-2xl text-center md:text-4xl mx-3" {...props} />,
   h2: (props) => <h2 className="text-3xl mx-3 my-2" {...props} />,
   h3: (props) => <h2 className="text-2xl mx-3 my-2" {...props} />,
-  h4: (props) => <h2 className="text-xl mx-3 text-center mb-2 text-gray-500" {...props} />,
+  h4: (props) => <h2 className="text-xl mx-3 text-center mb-2 text-gray-700" {...props} />,
   h5: (props) => <h2 className="mx-3" {...props} />,
   code: (props) => <CodeBlock {...props} />,
   pre: (props) => <div {...props} />,
