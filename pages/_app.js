@@ -4,14 +4,16 @@ import { Header } from "../lib/Header";
 import { CodeBlock } from "../lib/CodeBlock";
 
 const components = {
-  wrapper: (props) => (
+  wrapper: (props) => {
+    console.log(props);
+    return (
     <>
       <Header />
       <div className="container mx-auto p-4 bg-white">
         <main {...props} />
       </div>
     </>
-  ),
+  )},
   p: (props) => <p className="my-1 mx-3" {...props} />,
   h1: (props) => <h1 className="text-2xl text-center md:text-4xl mx-3" {...props} />,
   h2: (props) => <h2 className="text-3xl mx-3 my-2" {...props} />,
